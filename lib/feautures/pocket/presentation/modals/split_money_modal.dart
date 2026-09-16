@@ -82,7 +82,8 @@ class _SplitMoneyModalState extends State<SplitMoneyModal> {
                   ),
                 ),
                 const SizedBox(height: 12),
-                ...state.pockets.map((pocket) => Padding(
+                ...state.pockets.map(
+                  (pocket) => Padding(
                     padding: const EdgeInsets.only(bottom: 12.0),
                     child: Row(
                       children: [
@@ -128,7 +129,8 @@ class _SplitMoneyModalState extends State<SplitMoneyModal> {
                         ),
                       ],
                     ),
-                  )),
+                  ),
+                ),
                 const SizedBox(height: 12),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
